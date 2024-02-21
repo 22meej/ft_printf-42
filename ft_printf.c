@@ -6,7 +6,7 @@
 /*   By: amejdoub <amejdoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/20 11:42:38 by amejdoub          #+#    #+#             */
-/*   Updated: 2023/12/24 17:29:23 by amejdoub         ###   ########.fr       */
+/*   Updated: 2024/02/21 12:35:23 by amejdoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,40 +57,3 @@ int	ft_printf(const char *format, ...)
 	return (res);
 }
 
-int main()
-{
-	ft_printf("%d", ft_printf("%  s", NULL));
-	// return (0);
-	// printf("%d", printf("%s","1234567899"))
-	// ft_printf("%d\n" ,ft_printf("%                   s%  ","abc"));
-	// int fd = open("txt.txt", O_WRONLY|O_APPEND);
-	// fclose(stdout);
-	
-    // Now any printf attempt will fail because stdout is closed
-	// return (write(fd ,"test", 4));
-    // if (printf("Hello, world!\n") < 0) {
-    //     return (printf("Hello, world!\n"));
-    //     // perror(printf("Hello, world!\n"));
-    // }
-	// cha ptr = 99999;
-	// int i = 99;
-	// printf("% uuyhfhiuhfiud",printf("%s\n",ptr));
- 	// ft_printf("%       q     %",ft_printf("%s\n",ptr));
-	// ft_printf("%d",ft_printf("%            qqqqq%"));
-	// printf("%d",printf("helloooooo"));
-	// printf("%d",printf("hello\n"));
-	// ft_printf("%d",ft_printf("-hello-\n"));
-	
-	// //err 1
-	// ft_printf("%d\n" ,ft_printf("%                   s%  ","abc"));
-	// printf("%d\n" ,printf("%                   s%  ","abc"));
-	
-	// // err 2
-	// ft_printf("%d\n" ,ft_printf("%                   s%d%                  p%$d",NULL,INT_MIN - 1, NULL,15));
-	// printf("%d\n" ,printf("%                   s%d%                  p%$d",NULL,INT_MIN - 1,NULL,15));
-	
-	// ft_printf("%d\n" ,ft_printf(" %d      ", 77));
-	// printf("%d\n" ,printf(" %d      ", 77));
-	// printf("%d\n" ,printf("%vzljhqt#"));
-	return 0;
-}
